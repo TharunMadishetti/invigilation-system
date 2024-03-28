@@ -88,7 +88,7 @@ const CollegeDetailsForm = () => {
             type="text"
             id="branches"
             className="mt-1 p-2 border border-gray-300 rounded-md w-full"
-            placeholder="Enter branches"
+            placeholder="Enter room numbers"
             value={rooms}
             onChange={(e) => setRooms(e.target.value)}
           />
