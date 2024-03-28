@@ -165,6 +165,8 @@ const FacultyAssigned = () => {
         const response = await axios.post(postAssignmentDetailsRoute,{
           assignedInvigilators
         })
+        console.log('done')
+        console.log(assignedInvigilators)
       }  
      catch (error) {
         console.error('Error fetching faculty details:', error);
