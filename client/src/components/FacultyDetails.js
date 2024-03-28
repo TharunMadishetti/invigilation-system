@@ -39,7 +39,6 @@ const FacultyDetails = () => {
       <thead>
         <tr>
           <th className="border border-gray-300 px-4 py-2">Name</th>
-          <th className="border border-gray-300px-4 py-2">ID</th>
           <th className="border border-gray-300px-4 py-2">Email</th>
           <th className="border border-gray-300px-4 py-2">Password</th>
         </tr>
@@ -56,13 +55,6 @@ const FacultyDetails = () => {
             </td>
             <td
               className="border border-gray-300 px-4 py-2 cursor-pointer hover:text-blue-500"
-              onClick={() => handleCopyText(faculty.id)}
-            >
-              {faculty.id}
-              <span className="hidden">Copy</span>
-            </td>
-            <td
-              className="border border-gray-300 px-4 py-2 cursor-pointer hover:text-blue-500"
               onClick={() => handleCopyText(faculty.email)}
             >
               {faculty.email}
@@ -70,7 +62,7 @@ const FacultyDetails = () => {
             </td>
             <td
               className="border border-gray-300 px-4 py-2 cursor-pointer hover:text-blue-500"
-              onClick={() => handleCopyText(faculty.email)}
+              onClick={() => handleCopyText(faculty.password)}
             >
               {faculty.password}
               <span className="hidden">Copy</span> 
