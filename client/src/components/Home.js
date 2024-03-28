@@ -9,7 +9,7 @@ const Home = () => {
       <div className="bg-white p-8 rounded shadow-md w-full sm:w-96 text-center">
         <h2 className="text-2xl font-semibold mb-6">Welcome to Invigilation Assignment System</h2>
         <p className="text-gray-600 mb-4">
-          Ensure a secure and efficient invigilation process with our system. Manage assignments,
+          Ensure a secure and efficient invigilation assignment process with our system. Manage assignments,
           monitor exams, and streamline your invigilation workflow.
         </p>
         <ul className="text-left text-gray-600 mb-4 ml-4">
