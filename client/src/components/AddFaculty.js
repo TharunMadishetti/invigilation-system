@@ -11,7 +11,7 @@ const AddFaculty = () => {
     id: '',
     email: '',
     password: '',
-    timetable: '',
+    timetable: '{"schedule":\n[[{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""}]\n,[{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""}]\n,[{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""}]\n,[{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""}]\n,[{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""}]\n,[{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""},{"branch":"","year":""}]\n]}',
   });
 
   const handleChange = (e) => {
@@ -154,60 +154,7 @@ const AddFaculty = () => {
             className="mt-1 p-2 border border-gray-300 rounded-md w-full"
             placeholder="Enter timetable in JSON format"
             value={facultyDetails.timetable}
-            defaultValue='{
-              "years": [1, 2],
-              "schedule": [
-                [
-                  {"branch": "CSE", "year": "2"},
-                  {"branch": "MECH", "year": "3"},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""}
-                ],
-                [
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""}
-                ],
-                [
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""}
-                ],
-                [
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""}
-                ],
-                [
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""}
-                ],
-                [
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""},
-                  {"branch": "", "year": ""}
-                ]
-              ]
-            }
-            '
+            
             onChange={handleChange}
           />
         </div>
