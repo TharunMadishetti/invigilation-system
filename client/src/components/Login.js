@@ -23,7 +23,10 @@ const Login = () => {
   useEffect(() => {
     const loggedInUser = localStorage.getItem('user');
     if (loggedInUser) {
+      if(loggedInUser.salutaion)
       navigate('/');
+    else
+      navigate('/showAssignments')
     }
   }, [navigate]);
 
