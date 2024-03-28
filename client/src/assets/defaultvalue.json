@@ -1,0 +1,52 @@
+{
+    "schedule": [
+      [
+        {"branch": "CSE", "year": "2"},
+        {"branch": "MECH", "year": "3"},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""}
+      ],
+      [
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""}
+      ],
+      [
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""}
+      ],
+      [
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""}
+      ],
+      [
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""}
+      ],
+      [
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""},
+        {"branch": "", "year": ""}
+      ]
+    ]
+  }
